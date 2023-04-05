@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+  font-size: 22px;
+ margin: 5px;
+ font-family: nunito,sans-serif;
+}
+.btn{
+  width:120px;
+  height:50px;
+  background-color: #d2ffec;
+}
+.btn:hover  {
+  background-color: rgba(6, 75, 16, 0.8);
+}
+
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+}
+.logo img{
+    width: 33px; 
+    display:flex;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    margin-right: auto;
+}
+.navbar{
+    
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor: pointer;
+
+}
+.nav-list {
+    width:50%;
+    display: flex;
+    align-items: center;
+    padding:2px 2px ;
+    
+
+}
+.nav-list li {
+    list-style-type: none;
+    padding: 20px 30px;
+
+}
+.nav-list li a {
+text-decoration: none;
+color: rgb(13, 11, 11);
+}
+
+.nav-list li a:hover{
+   
+color: grey;
+   
+
+}
+
+.rightNav{
+    width:50%;
+    text-align: right;
+    padding: 0px 20px;
+}
+.search{
+    padding: 4px;
+    font-size:5px ;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.left{
+    display: flex;
+    padding-left: 10px;
+    width: 250px;
+align-items: left;
+}
+.right{
+    display: flex;
+    padding-left: 250px;
+}
+.container2{
+    padding-left: 40px;
+    display: flex;
+    width: 300px;
+}
+.background{
+    background: rgb(237, 233, 233)url('https://interncrowd.in/images/home-1-1.png');
+    background-size: cover;
+    background-blend-mode: darken;
+
+    }
+    
+    .firstSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    }
+    .box-main{
+        max-width: 75%;
+        margin:auto;
+        display:flex;
+        justify-content:center;
+        color:rgb(18, 16, 16);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .firsthalf{
+        display: flex;
+        width:80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 200px;
+    }
+    .secondhalf{
+        width:30%;
+    }
+    .secondhalf img{
+        display: flex;
+        width: 400px;
+        padding-bottom: 40px;
+        border: 3px solid white;
+        border-radius:200px;
+    
+    }
+    body{margin-top:20px;}
+    .row{
+      display: flex;
+
+    
+    }
+    .h{
+      display: flex;
+    }
+
+    /* Feature Box
+    ---------------------*/
+    .feature-box-1 {
+      width: 120px;
+      height: 300px;
+      padding-left: 20px;
+      box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+      margin: 15px 32px;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      top: 0;
+      flex-direction: column;
+      background-color:rgb(213, 246, 231);
+      border-style: line;
+      border-width: 2px;;
+    }
+   
+    .feature-box-1 * {
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-1 .icon {
+      width: 57px;
+      height: 70px;
+    
+    margin: auto;
+      line-height: 70px;
+      align-content: center;
+      background-image: url('https://interncrowd.in/images/subject-icon-8.png');
+      background-size: cover;
+      text-align: center;
+      margin-bottom: 22px;
+      font-size: 27px;
+      flex-direction: column;
+      display: flex;
+      padding-left: 10px;
+      border-color: black;
+      border: 2px;
+      
+    
+    }
+    .feature-box-1 .icon i {
+      line-height: 70px;
+    }
+    .feature-box-1 h5 {
+      color: #20247b;
+      font-weight: 600;
+    }
+    .feature-box-1 p {
+      margin: 0;
+    }
+    .feature-box-1:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      border-radius: 14px;
+      width: 0;
+      background: #20247b;
+      z-index: -1;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-1:hover {
+      top: -5px;
+    }
+    .feature-box-1:hover h5 {
+      color: #ffffff;
+    }
+    .feature-box-1:hover p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .feature-box-1:hover:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      left: 0;
+      right: auto;
+    }
+    .feature-box-2 {
+      width: 120px;
+      height: 300px;
+      padding-left: 20px;
+      box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+      margin: 15px 32px;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      top: 0;
+      flex-direction: column;
+      align-items: center;
+      background-color:rgb(213, 246, 231);
+      
+    }
+   
+    .feature-box-2 * {
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-2 .icon {
+      width: 60px;
+      height: 70px;
+    margin :2px;
+      line-height: 70px;
+      align-content: center;
+      background-image: url('https://interncrowd.in/images/student-icon-9.png');
+      background-size: cover;
+      text-align: center;
+      margin-bottom: 22px;
+      font-size: 27px;
+      flex-direction: column;
+      display: flex;
+      padding-left: 10px;
+    
+    }
+    .feature-box-2 .icon i {
+      line-height: 70px;
+    }
+    .feature-box-2 h5 {
+      color: #20247b;
+      font-weight: 600;
+    }
+    .feature-box-2 p {
+      margin: 0;
+    }
+    .feature-box-2:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      border-radius: 14px;
+      width: 0;
+      background: #20247b;
+      z-index: -1;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-2:hover {
+      top: -5px;
+    }
+    .feature-box-2:hover h5 {
+      color: #ffffff;
+    }
+    .feature-box-2:hover p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .feature-box-2:hover:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      left: 0;
+      right: auto;
+    }
+    .feature-box-3 {
+      width: 120px;
+      height: 300px;
+      padding-left: 20px;
+      box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+      margin: 15px 32px;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      top: 0;
+      flex-direction: column;
+      align-items: center;
+      background-color:rgb(213, 246, 231);
+      
+    }
+   
+    .feature-box-3 * {
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-3 .icon {
+      width: 60px;
+      height: 70px;
+    margin :2px;
+      line-height: 70px;
+      align-content: center;
+      background-image: url('https://interncrowd.in/images/student-icon-10.png');
+      background-size: cover;
+      text-align: center;
+      margin-bottom: 22px;
+      font-size: 27px;
+      flex-direction: column;
+      display: flex;
+      padding-left: 10px;
+    
+    }
+    .feature-box-3 .icon i {
+      line-height: 70px;
+    }
+    .feature-box-3 h5 {
+      color: #20247b;
+      font-weight: 600;
+    }
+    .feature-box-3 p {
+      margin: 0;
+    }
+    .feature-box-3:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      border-radius: 14px;
+      width: 0;
+      background: #20247b;
+      z-index: -1;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-3:hover {
+      top: -5px;
+    }
+    .feature-box-3:hover h5 {
+      color: #ffffff;
+    }
+    .feature-box-3:hover p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .feature-box-3:hover:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      left: 0;
+      right: auto;
+    }
+    .feature-box-4 {
+      width: 120px;
+      height: 300px;
+      padding-left: 20px;
+      box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+      margin: 15px 32px;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      top: 0;
+      flex-direction: column;
+      align-items: center;
+      background-color:rgb(213, 246, 231);
+      
+    }
+   
+    .feature-box-4 * {
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-4 .icon {
+      width: 60px;
+      height: 70px;
+    margin :2px;
+      line-height: 70px;
+      align-content: center;
+      background-image: url('https://interncrowd.in/images/student-icon-11.png');
+      background-size: cover;
+      text-align: center;
+      margin-bottom: 22px;
+      font-size: 27px;
+      flex-direction: column;
+      display: flex;
+      padding-left: 10px;
+    
+    }
+    .feature-box-4 .icon i {
+      line-height: 70px;
+    }
+    .feature-box-4 h5 {
+      color: #20247b;
+      font-weight: 600;
+    }
+    .feature-box-4 p {
+      margin: 0;
+    }
+    .feature-box-4:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      border-radius: 14px;
+      width: 0;
+      background: #20247b;
+      z-index: -1;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-4:hover {
+      top: -5px;
+    }
+    .feature-box-4:hover h5 {
+      color: #ffffff;
+    }
+    .feature-box-4:hover p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .feature-box-4:hover:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      left: 0;
+      right: auto;
+    }
+    .feature-box-5 {
+      width: 120px;
+      height: 300px;
+      padding-left: 20px;
+      box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+      margin: 15px 32px;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      top: 0;
+      flex-direction: column;
+      align-items: center;
+      background-color:rgb(213, 246, 231);
+      
+    }
+   
+    .feature-box-5 * {
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-5 .icon {
+      width: 60px;
+      height: 70px;
+    margin :2px;
+      line-height: 70px;
+      align-content: center;
+      background-image: url('https://interncrowd.in/images/subject-icon-7.png');
+      background-size: cover;
+      text-align: center;
+      margin-bottom: 22px;
+      font-size: 27px;
+      flex-direction: column;
+      display: flex;
+      padding-left: 10px;
+    
+    }
+    .feature-box-5 .icon i {
+      line-height: 70px;
+    }
+    .feature-box-5 h5 {
+      color: #20247b;
+      font-weight: 600;
+    }
+    .feature-box-5 p {
+      margin: 0;
+    }
+    .feature-box-5:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      border-radius: 14px;
+      width: 0;
+      background: #20247b;
+      z-index: -1;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-5:hover {
+      top: -5px;
+    }
+    .feature-box-5:hover h5 {
+      color: #ffffff;
+    }
+    .feature-box-5:hover p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .feature-box-5:hover:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      left: 0;
+      right: auto;
+    }
+    
+    .feature-box-6 {
+      width: 100px;
+      height: 300px;
+      padding-left: 20px;
+      box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+      margin: 15px 32px;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      overflow: hidden;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      top: 0;
+      flex-direction: column;
+      align-items: center;
+      background-color:rgb(213, 246, 231);
+      
+    }
+   
+    .feature-box-6 * {
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-6 .icon {
+      width: 60px;
+      height: 70px;
+    margin :2px;
+      line-height: 70px;
+      align-content: center;
+      background-image: url('https://interncrowd.in/images/subject-icon-12.png');
+      background-size: cover;
+      text-align: center;
+      margin-bottom: 22px;
+      font-size: 27px;
+      flex-direction: column;
+      display: flex;
+      padding-left: 10px;
+    
+    }
+    .feature-box-6 .icon i {
+      line-height: 70px;
+    }
+    .feature-box-6 h5 {
+      color: #20247b;
+      font-weight: 600;
+    }
+    .feature-box-6 p {
+      margin: 0;
+    }
+    .feature-box-6:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      border-radius: 14px;
+      width: 0;
+      background: #20247b;
+      z-index: -1;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      flex-direction: column;
+    }
+    .feature-box-6:hover {
+      top: -5px;
+    }
+    .feature-box-6:hover h5 {
+      color: #ffffff;
+    }
+    .feature-box-6:hover p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .feature-box-6:hover:after {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      left: 0;
+      right: auto;
+    }
+    
+    
+    
+    .section {
+      padding-top: 30px;
+        padding: 100px 0;
+        position: relative;
+    }
+    .section-title {
+        padding-bottom: 45px;
+    }
+    .section-title h2 {
+        font-weight: 700;
+        color: #20247b;
+        font-size: 45px;
+        margin: 0 0 15px;
+        border-left: 5px solid #fc5356;
+        padding-left: 15px;
+    }
+    .footer{
+      height:50vh;
+      background: #e2fef2;
+    }
+    .share{
+      display: flex;
+      flex-direction: column;
+      
+      width: 40px;
+      padding-left: 100px;
+    }
+    .lbox{
+      display:flex;
+      flex-direction: column;
+     
+      width: 100px;
+      padding-left: 200px;
+    }
+    .pbox{
+      display: flex;
+      padding-left: 60px;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 300px;
+    }
+      
+    .boxc{
+      display: flex;
+     
+   
+    }
+
+    .section-title{
+     padding-left: 70%;
+      font-style: bold;
+      display: flex;
+
+    }
+    .btn{
+      padding-right: 30px;
+    }
+ .B2{
+  padding-left: 80px;
+ }
+ .B1{
+  padding-left: 30px;
+ 
+ }
+ .A{
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  width: fit-content;
+
+ }
+ .Bnew{
+  padding-top: 65px;
+  padding-left: 10px;
+ }
+ 
